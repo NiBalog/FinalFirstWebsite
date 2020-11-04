@@ -2,127 +2,121 @@ body {
   margin:0;
   padding:0;
 }
-.navbar-background {
-  width:100%;
-  height:100px;
-  background-color:#333333;
-  border-style:solid;
-  border-color:#333333;
-}
-.navbar-text {
-  margin-top:-75px;
-  font-size:45px;
-  font-family:verdana;
-  color:white;
-  margin-left: 200px;
-}
-.navbar-text2 {
-  font-size:45px;
-  margin-top:-85px;
-  font-family:verdana;
-  color:white;
-  margin-left: 425px;
-}
-.navbar-text3 {
-  font-size:45px;
-  margin-top:-85px;
-  font-family:verdana;
-  color:white;
-  margin-left: 675px;
-}
-.navbar-text4 {
-  font-size:45px;
-  margin-top:-85px;
-  font-family:verdana;
-  color:white;
-  margin-left: 850px;
-}
-.gaming-page {
-  width:100%;
-  height:4000px;
-  background-color:black;
-}
-.section-title {
-  font-family: 'Secular One', sans-serif;
-  color:white;
-  font-size:90px;
-  margin-left:50px;
-  margin-top:50px;
-}
-.sub-title {
-  font-family: "verdana";
-  color:white;
-  font-size:50px;
-  margin-left:50px;
-  margin-top:-50px;
-}
-.text {
-  font-family: "verdana";
-  color:lightgrey;
-  font-size:30px;
-  margin-left:50px;
-}
-.div1 {
-  width: 90%;
-  height: 500px;
-  background-color:#203354;
-  margin: 0 auto;
-  margin-top:50px;
-}
-.div2 {
-  width: 40%;
-  height: 896px;
-  background-color:#203354;
-  margin: 5%;
-  margin-top:-986px;
-  float:right;
+.navbar-background { width:100%; height:70px; background-color:black; border-style:solid; border-bottom: solid #444444 3px; }
 
-}
-.game-proj-image-div {
-  width: 100%;
-  height:1000px;
-  background-color:white;
-}
+.the-proj-website { margin-top:9px; font-size:45px; font-family: 'molotregular', sans-serif; color:white; margin-left: 20px;
+text-shadow: 0 0 5px #fff, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6; }
 
-.game-proj-image {
-  box-shadow: 10px 10px 10px 10px 10px #ccc;
-  width:50%;
-  margin: 0 auto;
-  margin-left:25%;
+.dropdown-box { background-color:black; height: 75px; width: 12%; margin-left:35%; margin-top:-95px;}
 
-}
+.dropdown-box:hover { background-color:#203354;}
 
-.ftb1 {
-  float: left;
-  width:70%;
-  margin: 5%;
-}
+.dropdown-box2 { background-color:black; height: 75px; width: 12%; margin-left:47%; margin-top:-40px;}
 
-.div3 {
-  width: 30%;
-  height:1000px;
-  background-color:#203354;
-  margin:5%;
-  margin-top:1050px;
-}
-.projwithgreen {
-  margin:5%;
-  float:right;
-  width:55%;
-  margin-top:-1090px;
-}
-.div4 {
-  width: 55%;
-  height:360px;
-  background-color:#203354;
-  margin:5%;
-  margin-top:-450px;
-  float:right;
-}
-.proj-title {
-  margin-left:45%;
-  color:black;
+.dropdown-box2:hover { background-color:#203354;}
+
+.product1 { color:white; font-family: 'molotregular', sans-serif; font-size:30px; text-align:center; margin-top:0px; padding-top:21px;}
+
+.product2 { color:white; font-family: 'molotregular', sans-serif; font-size:30px; text-align:center; margin-top:-76px; padding-top:21px;}
+
+.gaming-page { width:100%; height:4000px; background-color:black; }
+
+.page-4k { width:100%; height:4000px; background-color:white; }
+
+.section-title { font-family: 'Secular One', sans-serif; color:white; font-size:90px; margin-left:50px; margin-top:50px; }
+
+.section-title-small { font-family: 'Secular One', sans-serif; color:white; font-size:68px; margin-left:40px; margin-top:50px; }
+
+.section-title-xs { font-family: 'Secular One', sans-serif; color:white; font-size:50px; margin-left:40px; margin-top:20px; }
+
+.sub-title { font-family: "verdana"; color:white; font-size:50px; margin-left:50px; margin-top:-50px; }
+
+.sub-title-small { font-family: "verdana"; color:white; font-size:40px; margin-left:40px; margin-top:-50px; }
+
+.sub-title-xs { font-family: "verdana"; color:white; font-size:30px; margin-left:40px; margin-top:-40px; }
+
+.text-small { font-family: "verdana"; color:lightgrey; font-size:30px; margin-left:50px; margin-right:50px; }
+
+.text-xs { font-family: "verdana"; color:lightgrey; font-size:25px; margin-left:40px; margin-right:50px; }
+
+.text { font-family: "verdana"; color:lightgrey; font-size:30px; margin-left:50px; }
+
+.game-proj-image-div-2 { background-image: url("stars.gif"); background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+.game-proj-image-div { width: 100%; height:1000px; background-color:white; }
+
+.game-proj-image { box-shadow: 10px 10px 10px 10px 10px #ccc; width:50%; margin: 0 auto; margin-left:25%; }
+
+.ftb1 { float: left; width:70%; margin: 5%; border-radius:10px;}
+
+.div1 { width: 90%; height: 10%; margin: 0 auto; margin-top:2%; border-radius:10px; }
+
+.div2 { width: 40%; height: 22.4%; margin: 5%; margin-top:-55%; float:right; border-radius:10px; }
+
+.div3 { width: 30%; height:25%; margin:5%; margin-top:1050px; border-radius:10px; }
+
+.div4 { width: 55%; height:9%; margin:5%; margin-top:-450px; float:right; border-radius:10px; }
+
+.projwithgreen { margin:5%; float:right; width:55%; margin-top:-1090px; border-radius:10px;}
+
+.proj-title { width: 100%; left: 0px; margin-top: 100px; text-align: center; color:#333333; position: absolute; font-family:verdana; font-size: 70px; }
+
+.proj-title2 { width: 100%; left: 0px; margin-top: 100px; text-align: center; color:white; position: absolute; font-family:verdana; font-size: 70px; }
+
+.sub-proj-title { width: 100%; left: 0px; margin-top: 250px; text-align: center; color:white; position: absolute; font-family:verdana; font-size: 20px; opacity: 0; }
+
+.proj-title-50k { width: 100%; left: 0px; margin-top: 300px; text-align: center; color:red; position: absolute; font-family:verdana; font-size: 70px; }
+
+.proj-title-50k-2 { width: 100%; left: 0px; margin-top: 0px; text-align: center; color:red; position: absolute; font-family:verdana; font-size: 70px; }
+
+@media (max-width: 1600px) {
+  .the-proj-website { margin-top:9px; font-size:35px; font-family: 'molotregular', sans-serif; color:white; margin-left: 20px;
+  text-shadow: 0 0 5px #fff, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6; }
+
+  .dropdown-box { background-color:black; height: 75px; width: 12%; margin-left:35%; margin-top:-80px;}
+
+  .dropdown-box2 { background-color:black; height: 75px; width: 12%; margin-left:47%; margin-top:-40px;}
 
 
+
+
+}
+@media (max-width: 1200px) {
+  .the-proj-website { margin-top:22px; font-size:25px; font-family: 'molotregular', sans-serif; color:white; margin-left: 20px;
+  text-shadow: 0 0 5px #fff, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6; }
+
+  .dropdown-box { background-color:black; height: 75px; width: 12%; margin-left:35%; margin-top:-70px;}
+
+  .dropdown-box2 { background-color:black; height: 75px; width: 12%; margin-left:47%; margin-top:-40px;}
+
+  .div1 { width: 90%; height: 10%; margin: 5%; margin-top:5%; border-radius:10px; }
+
+  .div2 { width: 90%; height: 10%; margin: 5%; margin-top:0%; border-radius:10px; }
+
+  .div3 { width: 90%; height:10%; margin:5%; margin-top:115%; border-radius:10px; }
+
+  .div4 { width: 90%; height:10%; margin:5%; margin-top:0%; border-radius:10px; }
+
+  .ftb1 { width:90%; margin: 5%; margin-top:0%; border-radius:10px;}
+
+  .projwithgreen { margin:5%; width:90%; margin-top:0%; border-radius:10px;}
+
+  .section-title { font-family: 'Secular One', sans-serif; color:white; font-size:45px; margin-left:50px; margin-top:50px; }
+
+  .section-title-small { font-family: 'Secular One', sans-serif; color:white; font-size:38px; margin-left:50px; margin-top:50px; }
+
+  .section-title-xs { font-family: 'Secular One', sans-serif; color:white; font-size:30px; margin-left:50px; margin-top:20px; }
+
+  .sub-title { font-family: "verdana"; color:white; font-size:35px; margin-left:50px; margin-top:-50px; margin-top:-20px; }
+
+  .sub-title-small { font-family: "verdana"; color:white; font-size:40px; margin-left:50px; margin-top:-50px; margin-top:-15px; }
+
+  .sub-title-xs { font-family: "verdana"; color:white; font-size:30px; margin-left:50px; margin-top:-40px; margin-top:-4px;}
+
+  .text-small { font-family: "verdana"; color:lightgrey; font-size:25px; margin-left:50px; margin-right:50px; }
+
+  .text-xs { font-family: "verdana"; color:lightgrey; font-size:25px; margin-left:50px; margin-right:50px; }
+
+  .text { font-family: "verdana"; color:lightgrey; font-size:25px; margin-left:50px; }
 
 }

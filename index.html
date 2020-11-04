@@ -3,65 +3,89 @@
   <head>
     <script type="text/javascript" src="java.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class = "navbar-background">
-      <img src = "projectorClipart.png" width = "150px">
-      <h1 class = "navbar-text">Home</h1>
-      <h1 class = "navbar-text2">Setup</h1>
-      <h1 class = "navbar-text3">Buy</h1>
-      <h1 class = "navbar-text4">Specs</h1>
-    </div>
-    <div class = "home-page" id = "home-page">
-      <div class = "game-proj-image-div">
-        <h1 class =  "proj-title" id = "proj-title">Click the projector and then scroll down</h1>
-      <img src = "240proj1.png" class = "game-proj-image" type = "button" onClick = "GamingProjectorPage()">
+      <h1 class = "the-proj-website" id = "the-proj-website">THE PROJECTOR WEBSITE</h1>
+      <div class = "dropdown-box">
+        <h1 class = "product1" id = "product1" type = "button" onClick = "GamingProjectorPage()" >UHD50X</h1>
+      </div>
+      <div class = "dropdown-box2">
+        <h1 class = "product2" id = "product2" type = "button" onClick = "highResProjectorPage()" >VAVA50k</h1>
       </div>
     </div>
-
-
-
+      <div class = "actual-dropdown" id = "actual-dropdown">
+    </div>
+    <div class = "home-page" id = "home-page">
+      <h1 class =  "proj-title" id = "proj-title">UHD50X</h1>
+      <div class = "game-proj-image-div">
+      <img src = "240proj1.png" class = "game-proj-image" type = "button" onClick = "GamingProjectorPage()">
+      </div>
+      <h1 class =  "proj-title" id = "proj-title">VAVA50k</h1>
+      <img src = "0.png" class = "animation" width = "100%" type = "button" onClick = "highResProjectorPage()">
+    </div>
 
     <div class = "gaming-page" id = "gaming-page" style = "display:none">
+      <h1 class =  "proj-title2" id = "proj-title2">UHD50X</h1>
+      <h1 class =  "sub-proj-title"  id = "sub-proj-title">Light Speed. </h1>
+      <div class = "game-proj-image-div-2" id  = "game-proj-image-div-2">
       <div class = "game-proj-image-div" id = "game-proj-image-div">
         <img src = "240proj1.png" class = "game-proj-image" id = "game-proj-image">
       </div>
-      <div class = "div1">
-        <h1 class = "section-title">240 hertz<h1>
+      </div>
+      <div class = "div1"  style = "background-color:#203354;">
+        <h1 class = "section-title">1600 hertz<h1>
         <h1 class = "sub-title"> A Framerate unheard of on a projector<h1>
         <p class = "text">We pushed the limits of projector processing<br>capabilities to bring you a first-in-class experience in games<p>
       </div>
       <img src = "ftb1.png" class = "ftb1">
-      <div class = "div2">
+      <div class = "div2" style = "background-color:#203354;">
+        <h1 class = "section-title">Easy Setup<h1>
+        <h1 class = "sub-title">Just plug and play<h1>
+        <p class = "text">You just need a wall, a plug, and a pc, simple as that.<p>
       </div>
-      <div class = "div3">
+      <div class = "div3" style = "background-color:#203354;">
+        <h1 class = "section-title-small">Hi. Resolution<h1>
+        <h1 class = "sub-title-small">16k High Definition<h1>
+        <p class = "text-small">Nothing makes a game look better than more pixels, that is why, in our newest gaming projector,
+          we have managed to squeeze in over 132 million pixels, with a resolution of 15360 x 8640.
+          Not only will your games look smoother at 240hz, now they will look sharper and crisper as well.<p>
       </div>
       <img src = "projwithgreen.jpg" class = "projwithgreen">
-      <div class = "div4">
+      <div class = "div4" style = "background-color:#203354;">
+        <h1 class = "section-title-xs">The Ultimate Gaming Experience</h1>
+        <h1 class = "sub-title-xs">If you are looking for a no-comprimises gaming experience, look no further<h1>
+        <p class = "text-xs">With a resolution of 15360 x 8640 and a 240 hz refresh rate, along with an input delay of -16ms, you wont find a better projector for gaming anywhere.<p>
       </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class = "page-4k" id = "4k-page" style = "display:none">
+      <h1 class =  "proj-title" id = "proj-title">VAVA50k</h1>
+      <img src = "0.png" class = "animation" id = "animation" width = "100%">
+      <div class = "div1" style = "background-color:#03FDFC;">
+        <h1 class = "section-title"> 50k resolution<h1>
+        <h1 class = "sub-title">The sharpest most detailed image in the world<h1>
+        <p class = "text">Never has a 50k resolution ever been implemented, until today<p>
+      </div>
+      <img src = "ftb1.png" class = "ftb1" >
+      <div class = "div2" style = "background-color:#FF033E;">
+        <h1 class = "section-title">Most accurate colors on a projector<h1>
+        <h1 class = "sub-title">Perfect for photo editing<h1>
+        <p class = "text">Accurate, vibrant colors that you can't get anywhere else.<p>
+      </div>
+      <div class = "div3" style = "background-color:#FFFF00;">
+        <h1 class = "section-title-small">100ft projection size<h1>
+        <p class = "text-small">Nothing is better than a big screen, more information on the screen, bigger for watching videos, and 100ft is more than you'll ever need!<p>
+      </div>
+      <img src = "projwithgreen.jpg" class = "projwithgreen">
+      <div class = "div4" style = "background-color:#FF00FF;">
+        <h1 class = "section-title-xs">The best in productivity</h1>
+        <h1 class = "sub-title-xs">Be it video editing, photo editing, or even gaming, this projector does it all<h1>
+        <p class = "text-xs">50k resolution, sharp accurate colors, an incredible contrast ratio, and a reasonable price, what are you waiting for?<p>
+      </div>
+    </div>
 
 
   </body>
